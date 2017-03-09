@@ -1,69 +1,229 @@
+/*
+COLOR SCHEMES:
+Mid blue- 47A6FC
+Owangeg- FE500D
+yell tan- FEE24D
+pinko- FFA1FB
+*/
 body {
-    background-color:white;
-    background-image: url("pig.jpg");
+    background-color:none;
+    background-image: url(images/back.jpg);
+    background-size: cover;
+    color: none;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
 }
 
-h1 {
-    color:blue;
-    font-family: cursive;
-    font-size: 50px;
+
+
+.button-wrap {
+    text-align: center;
 }
+
+
+.image-content > img {
+    max-width: 400px;
+    max-height: 500px;
+    border-radius: 50%;
+    border: 5px lightblue solid;
+}
+
+    
+h4 > a {
+    color: springgreen;
+    filter: brightness(97%);
+}
+
+h4 > a:hover {
+    color: blueviolet;
+}
+
+
+.image-content {
+    text-align: center;
+}
+
+
+
+#skills {
+    text-align: center;
+    font-size: 25px; 
+}
+
+#skills span {
+    font-size: 15px;
+    letter-spacing: 5px;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+header h1 {
+    color: lightcyan;
+    border: 3px solid lightblue;
+    font-size: 50px;
+    background-image: url(images/trees.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 600px 400px;
+    text-align: center;
+    
+}
+
+article h2 {
+    color: white;
+    text-shadow: 
+        0 0 6px black,
+        0 0 6px black,
+        0 0 6px black,
+        0 0 6px black,
+        0 0 6px black;
+    margin:0 auto;
+    text-align: center;
+}
+
+article p {
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+nav > ul > button {
+    border: none;
+    color: lightcyan;
+    font-size: 25px;
+    display: inline-block;
+    margin: 4;
+    transition: background-color .5s;
+    background-color: #FFA1FB;
+    min-width: 225px;
+}
+
+nav > ul {
+    color: lightcyan;
+    min-height: 40px;
+    padding: 15px 0 15px 0;
+}
+
+
+nav > ul > button:hover {
+    background-color: lightslategray;
+}    
+
 
 aside { 
-    color:red;
-    font-family: "Comic Sans MS", cursive, sans-serif;
-    font-size: 40px;
+    color:black;
+    font-size: 20px;
 }
 
 
-#header {
-    width:100%;
-    background-color: antiquewhite;
-}
-
-#header > h1 {
-    margin:0;
-}
-
-#nav {
-    width:100%;
-    background-color: aquamarine;
-}
-
-.menu {
-    display:flex;
-        background-color: #5fd8dc;
-        justify-content: space-around;
-    list-style-type: none;
+#aside-right h3 {
+    text-align: center;
+    padding-bottom: 0;
+    font-size: 35px;
     margin: 0;
 }
 
-#middle-wrapper {
-    display:flex;
+
+#header h1 {
+    background-color: none;
+    text-shadow: 
+         0 0 6px lightpink,
+         0 0 3px purple,
+         0 0 7px white,
+         0 0 4px pink,
+         0 0 5px lightpink,
+         0 0 5px lightpink;
 }
+
+
+
+#nav {
+    background-color: aquamarine;
+    min-height: 30px;
+    height: auto;
+}
+
+
+
 
 #main-content-wrapper {
-    background-color:cornflowerblue;
-    width: 80%;
+    background-color:none;
+    margin:0 auto;
 }
+
+#main-content-wrapper .image-content {
+    margin: 0 auto;
+}
+
+
 
 p {
-    color: red;
+    color: white;
+    text-shadow: 
+        0 0 3px black,
+        0 0 3px black,
+        0 0 3px black,
+        0 0 3px black,
+        0 0 3px black,
+        0 0 3px black;
+    margin: 7px;
 }
 
-#aside-content-wrapper {
-    font-size: 40px;
-    background-color: bisque;
-    width:20%;
+
+#latest-work {
+    list-style-type: none;
+    font-size: 30px;
+    text-align: left;
+    margin: 0;
+    
 }
+
+#aside-right {
+      color: white;
+    text-shadow: 
+        0 0 3px black,
+        0 0 3px black,
+        0 0 3px black,
+        0 0 3px black,
+        0 0 3px black,
+        0 0 3px black;
+}
+
     
-    
+#favorite-sites {
+    border-bottom: 10px #F864E9 solid;
+    border-top: 7px #F864E9 solid;
+    margin-top: 120;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#aside-right h3 {
+    text-align: left;
+}
+
+.col-md-4 > img {
+    max-width: 250px;
+    max-height: 170px;
+}
+
+
 footer {
-    background-color: blueviolet;
-    margin:0;
     font-size: 50px;
-}
     
-footer > h1 {
-    margin:0;
+}
+
+footer h1 {
+    text-align: center;
+}
+
+.max-width {
+    margin: 0 auto;
+    max-width: 300px;
 }
